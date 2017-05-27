@@ -1,0 +1,11 @@
+0.3
+ - resizing doesn't work as it should, "fixed" it to die on resizing
+ - term size must be atleast 70x9 for it to run
+ - fixed reported problems with long artist/song names, both clipped at 30 chars
+ - fixed xml specials like "&amp;" which is now "&"
+ - minor code cleanup
+
+0.2
+ - artist displayed for all songs in the playlist
+ - added volume control on keys left/right (h for help)
+ - fixed a typo
